@@ -1,6 +1,6 @@
 
 
-export const load = ({ params, fetch }) => {
+export const load = async({ params, fetch }) => {
 
   const fetchPost = async (id) => {
     const res = await fetch(`/api/posts/${id}`)

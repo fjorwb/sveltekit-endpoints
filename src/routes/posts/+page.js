@@ -1,5 +1,5 @@
 
-export const load = ({ fetch }) => {
+export const load = async({ fetch }) => {
 
   const fetchPosts = async () => {
     const res = await fetch('/api/posts')

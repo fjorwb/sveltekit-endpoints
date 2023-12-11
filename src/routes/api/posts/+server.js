@@ -1,5 +1,5 @@
 
-export const GET = async ({ request, url }) => {
+export const GET = async ({  url }) => {
   const limit = Number(url.searchParams.get('limit') ?? '10')
   const skip = Number(url.searchParams.get('skip') ?? '0')
 
